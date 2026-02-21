@@ -1,0 +1,27 @@
+{
+  "name": "apichai-sx.github.io",
+  "version": "1.0.0",
+  "description": "test for node js",
+  "keywords": [
+    "medicine",
+    "surgery",
+    "clinic",
+    "AI",
+    "robotic"
+  ],
+  "homepage": "https://github.com/apichai-Sx/apichai-Sx.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/apichai-Sx/apichai-Sx.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apichai-Sx/apichai-Sx.github.io.git"
+  },
+  "license": "ISC",
+  "author": "Dart Rust",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
