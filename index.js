@@ -20,7 +20,7 @@ const server = http.createServer((req,res)=>{
       })
 	.on('end',() =>{
 		let bdy = ''+Buffer.concat(body).toString();
-    if (req.method === 'GET' && req.url === '/') {
+    if (req.method === 'GET' && req.url === '/triger') {
       res.statusCode = 200;
       res.end("<h1>apichaiclinic from github</h1>");
     }
