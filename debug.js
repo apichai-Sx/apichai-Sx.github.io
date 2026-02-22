@@ -15,8 +15,8 @@ const Xrqust = () =>{
 	xhr.onload = () =>{
 		alert(xhr.responseText)
 	}
-	xhr.setRequestHeader('Origin','https://apichai-sx.github.io')
 	xhr.open("GET",host + "/gen-sx/")
+	xhr.setRequestHeader('Origin','https://apichai-sx.github.io')
 	xhr.send()
 }
 repeat()
