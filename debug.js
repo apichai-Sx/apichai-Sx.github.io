@@ -21,4 +21,4 @@ const Xrqust = () =>{
 }
 repeat()
 document.getElementById("rqstBtn").addEventListener("click",Xrqust)
-document.getElementById("chdRld").innerHTML = "remove setting the header"
+document.getElementById("chkRld").innerHTML = "remove setting the header"
