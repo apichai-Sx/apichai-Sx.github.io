@@ -1,7 +1,6 @@
 //host = "http://localhost:3000";
 host = "https://www.apichaiclinic.net"
-document.getElementById("debug").innerHTML = "debug"
-inner = ["apichai","honda","wiraya","achita",""]
+inner = ["apichai","honda","wiraya","achita","apichai"]
 function repeat (){
 	for (let i = 0; i < 5;i++) {
 		setTimeout(()=>{
@@ -21,4 +20,4 @@ const Xrqust = () =>{
 }
 repeat()
 document.getElementById("rqstBtn").addEventListener("click",Xrqust)
-document.getElementById("chkRld").innerHTML = "remove setting the header"
+document.getElementById("chkRld").innerHTML = "get the last one same as the first"
