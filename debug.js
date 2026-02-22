@@ -16,8 +16,9 @@ const Xrqust = () =>{
 		alert(xhr.responseText)
 	}
 	xhr.open("GET",host + "/gen-sx/")
-	xhr.setRequestHeader('Origin','https://apichai-sx.github.io')
+	//xhr.setRequestHeader('Origin','https://apichai-sx.github.io')
 	xhr.send()
 }
 repeat()
 document.getElementById("rqstBtn").addEventListener("click",Xrqust)
+document.getElementById("chdRld").innerHTML = "remove setting the header"
