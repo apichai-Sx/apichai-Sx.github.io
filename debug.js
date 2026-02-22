@@ -1,3 +1,5 @@
+//host = "http://localhost:3000";
+host = "https://www.apichaiclinic.net"
 document.getElementById("debug").innerHTML = "debug"
 inner = ["apichai","honda","wiraya","achita",""]
 function repeat (){
@@ -8,4 +10,13 @@ function repeat (){
 		},1000*i)
 	}
 }	
+const Xrqust = () =>{
+	let xhr = new XMLHttpRequest()
+	xhr.onload = () =>{
+		alert(xhr.responseText)
+	}
+	xhr.open("GET",host + "/gen-sx")
+	xhr.send()
+}
 repeat()
+document.getElementById("rqstBtn").addEventListener("click",Xrqust)
